@@ -51,7 +51,7 @@ resource-assessment error or a capex overrun), not year-by-year noise.
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/renewable-project-appraisal.git
+git clone https://github.com/Prabbyyy/renewable-project-appraisal.git
 cd renewable-project-appraisal
 pip install -r requirements.txt
 
