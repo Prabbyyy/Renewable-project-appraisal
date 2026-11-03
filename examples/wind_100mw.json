@@ -1,0 +1,43 @@
+{
+  "project": {
+    "name": "Wind 100 MW (illustrative)",
+    "technology": "wind",
+    "capacity_mw": 100,
+    "capex_cr_per_mw": 6.0,
+    "project_life": 25,
+    "plf": 0.33,
+    "degradation": 0.002,
+    "tariff": 3.4,
+    "tariff_escalation": 0.0,
+    "om_lakh_per_mw": 10.0,
+    "om_escalation": 0.05,
+    "insurance_pct_capex": 0.0035,
+    "debt_share": 0.7,
+    "interest_rate": 0.0925,
+    "loan_tenor": 18,
+    "repayment": "equal_principal",
+    "cost_of_equity": 0.14,
+    "min_dscr_covenant": 1.2,
+    "tax_rate": 0.2517
+  },
+  "monte_carlo": {
+    "n_sims": 5000,
+    "seed": 42,
+    "plf_sd_rel": 0.08,
+    "tariff_rel": [
+      -0.1,
+      0.0,
+      0.05
+    ],
+    "capex_rel": [
+      -0.05,
+      0.0,
+      0.15
+    ],
+    "interest_abs": [
+      -0.01,
+      0.0,
+      0.02
+    ]
+  }
+}

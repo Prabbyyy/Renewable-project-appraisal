@@ -1,0 +1,43 @@
+{
+  "project": {
+    "name": "Solar 50 MW (illustrative)",
+    "technology": "solar",
+    "capacity_mw": 50,
+    "capex_cr_per_mw": 3.6,
+    "project_life": 25,
+    "plf": 0.27,
+    "degradation": 0.005,
+    "tariff": 2.65,
+    "tariff_escalation": 0.0,
+    "om_lakh_per_mw": 7.0,
+    "om_escalation": 0.05,
+    "insurance_pct_capex": 0.0035,
+    "debt_share": 0.75,
+    "interest_rate": 0.0925,
+    "loan_tenor": 18,
+    "repayment": "equal_principal",
+    "cost_of_equity": 0.14,
+    "min_dscr_covenant": 1.2,
+    "tax_rate": 0.2517
+  },
+  "monte_carlo": {
+    "n_sims": 5000,
+    "seed": 42,
+    "plf_sd_rel": 0.06,
+    "tariff_rel": [
+      -0.1,
+      0.0,
+      0.05
+    ],
+    "capex_rel": [
+      -0.05,
+      0.0,
+      0.15
+    ],
+    "interest_abs": [
+      -0.01,
+      0.0,
+      0.02
+    ]
+  }
+}
